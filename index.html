@@ -1,0 +1,170 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Git init</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<link href="css/main.css" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<textarea id="source">
+
+			class: middle, center
+			# git init
+			![](img/git.png)
+			---
+			background-image: url(img/linus.jpg)
+			background-size: cover
+			---
+			class: middle, center
+			# `git != ...`
+			---
+			background-image: url(img/github.png)
+			background-size: cover
+			---
+			background-image: url(img/gitlab.png)
+			background-size: cover
+			---
+			class: middle, center
+			# what is so different about git?
+			---
+			class: middle, center
+			# a lot of things!
+			---
+			class: middle, center
+			![](img/git-revisions.png)
+			---
+			class: middle, center
+			# `git init`
+			## let's get started
+			???
+			init-example
+			---
+			background-image: url(img/init.jpg)
+			background-size: cover
+			---
+			class: middle, center
+			# `git status`
+			## what have I done?
+			???
+			status-example
+			---
+			class: middle, center
+			# `git add`
+			## a.k.a. the staging area
+			???
+			add-example
+			---
+			class: middle, center
+			# but wait, there is more stuff
+			???
+			add-partial-example
+			---
+			class: middle, center
+			# `git commit`
+			## let's commit!
+			???
+			commit-example
+			---
+			class: middle, center
+			# but where is my server?
+			---
+			background-image: url(img/server.jpg)
+			background-size: cover
+			---
+			class: middle, center
+			# git does _not_ require a server
+			???
+			explain that git is not centralized, talk about what DVCS is and means in practice
+			---
+			background-image: url(img/empty-server-room.jpg)
+			background-size: cover
+			---
+			class: middle, center
+			![](img/git-dvcs.png)
+			---
+			class: center, middle
+			# now to the more interesting stuff: branching
+			---
+			class: center, middle
+			![](img/git-revisions-branch.png)
+			???
+			explain how git branching is different from CVS branching
+			---
+			class: center, middle
+			# `git branch`
+			## and so it begins...
+			???
+			branch-example
+			---
+			class: center, middle
+			# `git merge`
+			## time to kill the branch
+			???
+			merge-example
+			---
+			class: center, middle
+			# what if we have conflicts?
+			???
+			merge-conflict-example
+			---
+			class: center, middle
+			# fast-forward vs. non-fast-forward merging
+			???
+			merge-no-ff-example
+			---
+			class: center, middle
+			![](img/git-rebase.png)
+			???
+			explain the different types of merges and also explain why you might want to do rebasing
+			---
+			class: center, middle
+			# `git rebase`
+			## now it really starts to get interesting
+			???
+			rebase-example
+			---
+			class: center, middle
+			# `git rebase --interactive`
+			## rewriting history
+			???
+			rebase-interactive-example
+			---
+			class: center, middle
+			# rebasing sounds awesome - let's rebase _all the things_
+			## wait a second...
+			---
+			background-image: url(img/rebase.jpg)
+			background-size: cover
+			---
+			class: middle, center
+			![](img/git-rebase-public.png)
+			???
+			explain why not to rebase pushed commits
+			---
+			background-image: url(img/sad.jpg)
+			background-size: cover
+			---
+			class: middle, center
+			# `git tag`
+			## release management with git
+			???
+			tags-example
+			---
+			class: center, middle
+			# things we did not cover
+			## config, ssh keys, UIs, ...
+			---
+			background-image: url(img/questions.gif)
+			background-size: cover
+
+		</textarea>
+
+		<script src="js/remark.js" type="text/javascript">
+		</script>
+		<script type="text/javascript">
+			var slideshow = remark.create({ratio: '16:9'});
+		</script>
+	</body>
+</html>
+
